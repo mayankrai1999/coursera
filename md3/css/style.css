@@ -1,0 +1,101 @@
+body{
+  box-sizing: border-box;
+  text-align: center;
+  font-family: cursive, sans-serif;
+}
+.container{
+  padding: 0px;
+  border : 0px;
+}
+.dropdown{
+  width:100%;
+}
+.menu{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+
+}
+#header-nav{
+  background-color: darkgray;
+  position: relative;
+  padding: 0;
+  border: 3px solid black;
+}
+
+.btn-primary {
+  background-color: darkgray;
+  border: 0px;
+}
+.btn-primary:hover {
+  background-color:  darkgray;
+  border : 0px;
+  box-shadow: 0 0 0 0;
+  border: 2px;
+  
+}
+.btn-primary:focus{
+  background-color:  darkgray;
+  border : 0px;
+  box-shadow: 0 0 0 0;
+  border: 2px;
+  
+}
+.btn-primary:active {
+  border :0px;
+  box-shadow: 0 0 0 0;
+  border: 2px;
+  
+}
+.dropdown-menu
+{position :absolute;
+  right:0;
+  width:auto;
+  border-radius: 0px;
+  text-align: center;
+  margin-top: 12px;
+  border:3px solid black;
+  margin-left: -3px;
+  margin-right: -3px;
+}
+#key{
+  position: absolute;
+  right:40px;
+  top:-33px;
+  border : 1px solid black;
+  padding: 0px 2px 0 2px;  
+
+}
+#key:hover .menu{
+  background-color: aliceblue;
+}
+#key:hover {
+border-color: aliceblue;
+}
+.navbar{
+  height: 4.2em;
+}
+#name{
+  margin-left: 40px;
+  font-size: 1.5em;
+  color: solid black;
+  font-weight: 550;
+}
+hr{
+  width: 90%;
+  height: 2px;
+}
+section{
+  background-color: darkgray;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+
+}
+h4{
+ margin: 10px 0px 10px 0px;
+}
+button.btn-primary{
+  border: 0;
+}
